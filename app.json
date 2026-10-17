@@ -1,0 +1,5 @@
+{"expo":{"name":"BarberTime","slug":"barbertime-mobile","version":"1.0.0","orientation":"portrait","userInterfaceStyle":"light","scheme":"barbertime",
+"android":{"package":"co.edu.uniminuto.barbertime","permissions":["CAMERA","RECORD_AUDIO"]},
+"ios":{"bundleIdentifier":"co.edu.uniminuto.barbertime","infoPlist":{"NSCameraUsageDescription":"BarberTime usa la camara para tu foto de perfil y de estilo.","NSMicrophoneUsageDescription":"BarberTime usa el microfono para grabar la nota de voz de tu cita.","NSPhotoLibraryUsageDescription":"BarberTime lee tu galeria para elegir una foto."}},
+"web":{"bundler":"metro"},
+"plugins":["expo-secure-store",["expo-image-picker",{"cameraPermission":"BarberTime usa la camara para tu foto de perfil y de estilo.","photosPermission":"BarberTime lee tu galeria para elegir una foto."}],["expo-audio",{"microphonePermission":"BarberTime usa el microfono para grabar la nota de voz de tu cita."}]]}}
